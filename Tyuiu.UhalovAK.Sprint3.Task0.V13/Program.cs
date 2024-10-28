@@ -12,9 +12,6 @@ namespace Tyuiu.UhalovAK.Sprint3.Task0.V13
             Console.WriteLine("* Вариант #13                                                              *");
             Console.WriteLine("* Выполнил: Ухалов Арсений Константинович | АСОиУБ-24-1                    *");
             Console.WriteLine("****************************************************************************");
-            Console.WriteLine("* УСЛОВИЕ:                                                                 *");
-            Console.WriteLine("*  *");
-            Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
 
@@ -22,17 +19,17 @@ namespace Tyuiu.UhalovAK.Sprint3.Task0.V13
 
 
             double value = 0.5;
-            int StartValue = 1;
-            int StopValue = 20;
-            Console.WriteLine("*Пременная a = " + value);
-            Console.WriteLine("*Старт шага = " + StartValue);
-            Console.WriteLine("*Конец шага = " + StopValue);
+            int startValue = 1;
+            int stopValue = 20;
+            Console.WriteLine("Пременная a = " + value);
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма ряда: " + ds.GetSumSeries(value, StartValue, StopValue));
+            Console.WriteLine("Сумма ряда: " + ds.GetSumSeries(value, startValue, stopValue));
             Console.ReadKey();
         }
     }
