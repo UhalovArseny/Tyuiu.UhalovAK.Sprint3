@@ -6,10 +6,10 @@ namespace Tyuiu.UhalovAK.Sprint3.Task2.V22.Lib
     {
         public double GetMultiplySeries(int x, int i, int j)
         {
-            double s = 0;
+            double s = 1;
             do
             {
-                s = s + Math.Pow((3 / (i + (Math.Pow(x,-i)))), 2);
+                s = s * Math.Pow((3 / (i + (Math.Pow(x,-i)))), 2);
                 i++;
 
 

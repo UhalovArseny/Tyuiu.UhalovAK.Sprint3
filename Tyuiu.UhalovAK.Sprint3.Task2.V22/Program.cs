@@ -8,8 +8,8 @@ namespace Tyuiu.UhalovAK.Sprint3.Task2.V22
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #3                                                                *");
             Console.WriteLine("* Тема: Оператор switch                                                    *");
-            Console.WriteLine("* Задание #1                                                               *");
-            Console.WriteLine("* Вариант #23                                                              *");
+            Console.WriteLine("* Задание #2                                                               *");
+            Console.WriteLine("* Вариант #22                                                              *");
             Console.WriteLine("* Выполнил: Ухалов Арсений Константинович | АСОиУБ-24-1                    *");
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
